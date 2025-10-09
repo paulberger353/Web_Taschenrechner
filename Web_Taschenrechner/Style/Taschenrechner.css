@@ -1,1 +1,114 @@
-﻿
+﻿body {
+    background-color: #1e1e1e;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    width: 320px;
+}
+
+.panDisplay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a3a3a;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.display {
+    width: 70%;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+.label {
+    width: 20%;
+    text-align: center;
+    color: #aaa;
+    font-size: 1.4rem;
+}
+
+.allButtons {
+    display: flex;
+    gap: 10px;
+}
+
+.panNumbs {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.panOperatoren {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    height: 50px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+    .btn.numb {
+        background-color: #3a3a3a;
+        color: #fff;
+    }
+
+    .btn.numb:hover {
+         background-color: #323232;
+    }
+
+    .btn.operator {
+        background-color: #555;
+        color: #fff;
+        font-weight: 600;
+    }
+
+        .btn.operator:hover {
+            background-color: #444;
+        }
+
+.btnlong {
+    width: 100%;
+    background-color: #888;
+}
+
+    .btnlong:hover {
+        background-color: #818181;
+    }
+
+@media (max-width: 400px) {
+    form {
+        width: 90%;
+    }
+}

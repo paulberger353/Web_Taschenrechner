@@ -13,5 +13,55 @@ namespace Web_Taschenrechner
         {
 
         }
+
+        /// <summary>
+        /// Methode wird aufgerufen wenn der Benutzer auf einen Button der Zahlen klickt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected void btnNumber_Click(object sender, EventArgs e)
+        {
+
+        }     
+
+        /// <summary>
+        /// Methode wird aufgerufen wenn der Benutzer ein Komma setzen will
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected void btnKomma_Click(object sender, EventArgs e)
+        {
+
+        }        
+        
+        /// <summary>
+        /// Methode wird aufgerufen wenn der Benutzer ausrechnen will
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected void btnRechenzeichen_Click(object sender, EventArgs e)
+        {
+
+        }        
+        
+        /// <summary>
+        /// Methode wird aufgerufen wenn der Benutzer auf einen Button der Zahlen klickt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected void btnClear_Click(object sender, EventArgs e)
+        {
+
+        }
+        
+        /// <summary>
+        /// Methode wird aufgerufen wenn der Benutzer auf einen Button der Zahlen klickt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected void btnGleich_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
