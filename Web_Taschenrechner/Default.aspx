@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>WEB-Rechner </title>
     <link href="Style/Taschenrechner.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
